@@ -1,0 +1,10 @@
+function temperatureconverter(fahrenheit){
+    let celsius = (fahrenheit - 32)/1.8;
+    return celsius;
+}
+let valuereturners = temperatureconverter(223);
+let valuereturnerss = temperatureconverter(100);
+let valuereturnersss = temperatureconverter(80);
+console.log(valuereturners);
+console.log(valuereturnerss);
+console.log(valuereturnersss);
